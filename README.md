@@ -1,7 +1,4 @@
-
-
-
-  <header style="direction: rtl; text-align: right;">
+<header style="direction: rtl; text-align: right;">
     <h1>👋 سلام! من محمد جواد تجدد هستم</h1>
     <p>برنامه‌نویس محیط زیستی | عاشق یادگیری و ساختن</p>
   </header>
@@ -14,8 +11,8 @@
     </p>
   </section>
 
-  <section>
-    <h2>مهارت‌ها</h2>
+  <section style="direction: rtl; text-align: right;">
+    <h2 style="direction: rtl; text-align: right;">مهارت‌ها</h2>
     <div class="skills">
       <div class="card">HTML</div>
       <div class="card">CSS</div>
@@ -25,7 +22,7 @@
     </div>
   </section>
 
-  <section>
+  <section style="direction: rtl; text-align: right;">
     <h2>پروژه‌ها</h2>
     <div class="projects">
       <div class="card">
@@ -51,6 +48,4 @@
   <footer>
     ساخته‌شده توسط محمد جواد تجدد
   </footer>
-
-
 
