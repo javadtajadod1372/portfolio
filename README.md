@@ -1,5 +1,5 @@
 
-
+<body style="direction: rtl; text-align: right;">
 
   <header>
     <h1>👋 سلام! من محمد جواد تجدد هستم</h1>
@@ -53,3 +53,4 @@
   </footer>
 
 
+</body>
