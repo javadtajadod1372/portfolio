@@ -1,43 +1,45 @@
-
 <html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="پورتفولیوی محمد جواد تجدد - برنامه‌نویس محیط زیستی، نمایش مهارت‌ها و پروژه‌ها">
+  <meta name="description" content="پورتفولیوی حرفه‌ای محمد جواد تجدد با پس‌زمینه متحرک و پروژه‌های قابل کلیک">
   <title>پورتفولیوی محمد جواد تجدد</title>
   <link href="https://fonts.googleapis.com/css2?family=Shabnam:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     /* ===== پایه ===== */
     body {
       font-family: "Shabnam", sans-serif;
-      background:#121212;
-      color:#e0e0e0;
       margin:0;
       line-height:1.8;
       scroll-behavior:smooth;
+      background: linear-gradient(-45deg, #121212, #1b5e20, #0d0d0d, #2e7d32);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color:#e0e0e0;
     }
     a { text-decoration:none; color:inherit; transition:.3s; }
-    a:hover { color:#a5d6a7; }
+    a:hover { color:#fff; text-decoration:underline; }
 
     /* ===== نوار ناوبری ===== */
     nav {
       position:sticky;
       top:0;
-      background:#1b5e20;
+      background:rgba(27,94,32,0.9);
       padding:1rem 2rem;
       display:flex;
       justify-content:flex-end;
       gap:1.5rem;
       z-index:1000;
-      box-shadow:0 2px 8px rgba(0,0,0,.5);
+      backdrop-filter: blur(5px);
+      box-shadow:0 2px 12px rgba(0,0,0,.6);
     }
     nav a { color:#fff; font-weight:600; }
     nav a:hover { color:#c8e6c9; }
 
     /* ===== هدر ===== */
     header { text-align:center; padding:4rem 1rem 2rem; }
-    header h1 { color:#a5d6a7; font-size:2.2rem; margin-bottom:.5rem; text-shadow:0 0 15px #66bb6a55; }
-    header p.subtitle { color:#bdbdbd; font-size:1.1rem; }
+    header h1 { color:#a5d6a7; font-size:2.4rem; margin-bottom:.5rem; text-shadow:0 0 20px #66bb6a88; }
+    header p.subtitle { color:#bdbdbd; font-size:1.2rem; }
 
     /* ===== بخش‌ها ===== */
     section { padding:2rem 1rem; max-width:900px; margin:auto; }
@@ -46,14 +48,15 @@
     /* ===== کارت‌ها ===== */
     .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1rem; }
     .card {
-      background:#1e1e1e;
+      background:rgba(30,30,30,0.9);
       border-radius:12px;
       padding:1rem;
-      box-shadow:0 4px 10px rgba(0,0,0,.4);
-      border:1px solid #2e7d32;
+      box-shadow:0 6px 18px rgba(0,0,0,.6);
+      border:1px solid #66bb6a;
       transition:.3s;
+      backdrop-filter: blur(5px);
     }
-    .card:hover { transform:translateY(-5px); border-color:#66bb6a; box-shadow:0 6px 14px rgba(0,0,0,.6); }
+    .card:hover { transform:translateY(-7px) scale(1.03); border-color:#a5d6a7; box-shadow:0 10px 25px rgba(0,0,0,.8); }
     .card h3 { margin-top:0; color:#a5d6a7; }
 
     /* ===== فوتر ===== */
@@ -72,6 +75,11 @@
 
     @keyframes fadeUp {
       to { opacity:1; transform:translateY(0); }
+    }
+    @keyframes gradientBG {
+      0%{background-position:0% 50%;}
+      50%{background-position:100% 50%;}
+      100%{background-position:0% 50%;}
     }
   </style>
 </head>
