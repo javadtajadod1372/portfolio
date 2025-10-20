@@ -120,7 +120,7 @@
         <h3>📝 فرم ثبت نام رانندگی</h3>
         <p>یک فرم ساده و کاربردی برای ثبت اطلاعات کاربران جهت دریافت گواهینامه رانندگی.</p>
         <div style="margin-top:12px; text-align:left;">
-    <a href="driver/driver.html" class="btn" style="padding:8px 12px; font-size:0.95rem;">مشاهده پروژه</a>
+    <a href="https://javadtajadod1372.github.io/driver/" class="btn" style="padding:8px 12px; font-size:0.95rem;">مشاهده پروژه</a>
   </div>
 </a>
       </a>
