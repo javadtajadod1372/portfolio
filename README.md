@@ -116,7 +116,7 @@
   <section id="projects" class="fade delay-1">
     <h2>پروژه‌ها</h2>
     <div class="grid">
-      <a href="#" class="card" aria-label="فرم ثبت نام رانندگی">
+      <a href="https://javadtajadod1372.github.io/driver/" class="card" aria-label="فرم ثبت نام رانندگی — مشاهده پروژه">
         <h3>📝 فرم ثبت نام رانندگی</h3>
         <p>یک فرم ساده و کاربردی برای ثبت اطلاعات کاربران جهت دریافت گواهینامه رانندگی.</p>
       </a>
